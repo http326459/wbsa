@@ -1,0 +1,27 @@
+/*head*/
+.navbar_header{ background-color:#ff9700; height:4.3rem;}
+.head_bgn_all{ color:#FFF; font-size:1.2rem;}
+.head_bgn_all .head_bgn_icon{ color:#FFF; line-height:4.5rem; float:left; position:absolute; z-index:9999; left:1.2rem; font-size:2rem;}
+.head_title{ text-align:center; width:100%; color:#FFF;}
+.head_bgn_li{ color:#FFF;padding-right: 10px;}
+/*foot*/
+.navbar_footbgn{ background-color:#ffffff; height:4.3rem;}
+.foot_bgn_all{ width:100%;}
+.foot_bgn_all a{ display:inline-block; width:20%; height:3.2rem; font-size:1.2rem;}
+.foot_bgn_img{ width:2rem; height:1.7rem; display:block; margin:auto; margin-top:-0.5rem;}
+.foot_bgn_li{ width:100%; text-align:center; color:#6e6e6e; }
+/*conten*/
+.conten_main{ margin:3.2rem auto;}
+.nav{margin-top:10px;font-size: 50px;}
+.nav li{padding-top:20px;font-size: 13px;width: 37%;}
+.nav li span{float: left;}
+.nav li :hover{background: #269ABC;}
+.nav li a{text-align: center;}
+.container{}
+.container h3{font-size: 18px;font-weight: bold;margin-top: 50px;margin-right: 15px;color: #666;}
+.move{float: left;height: 40px;width: 330px;}
+.move li{float: left;list-style: none;margin-right: 40px;}
+.move li a{color: #666;}
+.container p{text-indent: 2em;line-height: 20px;color: #666;font-size: 16px;margin-top: 15px;}
+.btn{margin-top: 20px;}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>专业实训显示</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/disprofessional.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+   <script>
+    $(function(){
+      $(".btn-group button").click(function(){
+        $(".btn-group button").eq($(this).index()).addClass("btn-group-active").siblings().removeClass("btn-group-active");
+      })
+    })
+</script>
+
+  </head>
+  <body>
+  
+  
+  <div class="container-fluid">
+  
+<!--header-->
+<nav class="navbar navbar-default navbar_header navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="head_bgn_all">
+      <a href="#"><icon class="glyphicon glyphicon-chevron-left head_bgn_icon"></icon></a>
+      <span class="navbar-brand head_title" href="#"><div class="head_bgn_li"></div></span>
+    </div>
+
+  </div>
+</nav>
+
+
+
+<div class="container-fluid conten_main">
+	<div class="btn-group type_px text-center">
+        <button type="button" class="btn btn-default btn-group-active"  onClick="location.href='newsshows.html''">招聘会列表</button>
+        <button type="button" class="btn btn-default"  onClick="location.href='jobshow.html'">招聘会搜索</button>
+      </div>
+
+	<!--
+		<ul class="nav nav-pills show">
+			<li class="active show"><a href="#">培训列表</a></li>
+			<li class="active show"><a href="#">专业实训</a></li>
+		</ul>
+	-->
+		<div class="container">
+		
+		</div>
+    
+   
+</div>
+<!--footer-->
+<nav class="navbar navbar-default navbar-fixed-bottom navbar_footbgn" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="foot_bgn_all">
+      <a class="navbar-brand" href="#"><div class="foot_bgn_li"><img class="foot_bgn_img" src="images/bgn_1.gif">首页</div></a>
+      <a class="navbar-brand" href="#"><div class="foot_bgn_li"><img class="foot_bgn_img" src="images/bgn_2.gif">培训</div></a>
+      <a class="navbar-brand" href="#"><div class="foot_bgn_li"><img class="foot_bgn_img" src="images/bgn_3.gif">招聘</div></a>
+      <a class="navbar-brand" href="#"><div class="foot_bgn_li"><img class="foot_bgn_img" src="images/bgn_4.gif">简历</div></a>
+      <a class="navbar-brand" href="#"><div class="foot_bgn_li"><img class="foot_bgn_img" src="images/bgn_5.gif">我的</div></a>
+    </div>
+
+  </div>
+</nav>
+
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+	
+	
+	
